@@ -1,0 +1,9 @@
+server:
+  port: 2014
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.105.196.142:33306/bigdata_house?searchpath=public&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 123456
